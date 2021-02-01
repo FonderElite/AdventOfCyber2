@@ -1,0 +1,3 @@
+//Revshell
+?id=ODIzODI5MTNiYmYw
+upload php revshell.jpeg.php

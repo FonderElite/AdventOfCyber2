@@ -1,0 +1,8 @@
+gobuster fuzzing
+gobuster dir -e -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http://10.10.223.39
+//fuzzing
+wfuzz -c -z file,big.txt http://shibes.xyz/api.php?breed=FUZZ
+//last fuzzing
+wfuzz -c -z file, wordlist http://10.10.223.39/api/site-log.php?date=FUZZ
+flag THM{D4T3_API}
+

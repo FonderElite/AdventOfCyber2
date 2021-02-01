@@ -1,0 +1,15 @@
+burpsuite
+turn on proxy
+send to intruder
+add payload 1 
+admin 
+root
+user
+
+add payload 2
+password 
+admin 
+12345
+
+found: admin 12345
+flag: THM{885ffab980e049847516f9d8fe99ad1a}
