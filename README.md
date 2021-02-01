@@ -3,7 +3,8 @@
 
 
 # Author
-This Write Up Is Gladly Made By FonderElite<br>
+**This Write Up Is Gladly Made By FonderElite**<br>
+
 <img src="JusticeServed.png">
 
 # Benefits of Tryhackme
