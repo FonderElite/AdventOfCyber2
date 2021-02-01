@@ -43,4 +43,5 @@
 | Quiz | [https://droid.rf.gd]() |
 | Shop | [https://legion.rf.gd]() |
 | Dorking | [https://googledork.rf.gd]() |
+| Singularity | [https://singularity.rf.gd]() |
 
