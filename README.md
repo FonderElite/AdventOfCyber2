@@ -32,13 +32,15 @@
 * [PyPi]() - Used to install python modules
 * [TryHackme]() - Awesome Platform for beginners
 ### Links
-| Linked | Plugins|
+| Socials|
 | ------ | ------ |
 | GitHub | [https://github.com]() |
 | Twitter | [https:/twitter.com/elitefonder]() |
-| TryHackMe |[https://tryhackme.com]()|
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+
+| Websites|
+| ------ | ------ |
+| Main | [http://justice.rf.gd]() |
+| Quiz | [https://droid.rf.gd]() |
+| Shop | [https://legion.rf.gd]() |
+| Dorking | [https://googledork.rf.gd]() |
 
