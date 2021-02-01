@@ -32,12 +32,12 @@
 * [PyPi]() - Used to install python modules
 * [TryHackme]() - Awesome Platform for beginners
 ### Links
-| Socials| |
+| Socials| Link |
 | ------ | ------ |
 | GitHub | [https://github.com]() |
 | Twitter | [https:/twitter.com/elitefonder]() |
 
-| Websites| |
+| Websites| Link |
 | ------ | ------ |
 | Main | [http://justice.rf.gd]() |
 | Quiz | [https://droid.rf.gd]() |
