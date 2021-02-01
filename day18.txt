@@ -1,0 +1,8 @@
+Reverse Eng2
+ILSpy Dotpeek
+https://www.jetbrains.com/decompiler/(Dotpeek)
+Username: cmnatic
+Password: Adventofcyber
+openTBFC_APP in ILspy and decompile
+pass: santapassword321
+Message.show(flag:thm{046af}) 

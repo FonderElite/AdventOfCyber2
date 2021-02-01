@@ -1,0 +1,20 @@
+Forensics
+[Blue Teaming]
+PowerShell
+[hash]
+Obtain the hash:Get-FileHash -Algorithm MD5 file.txt
+Scans the file for strings: Strings.exe
+Scan mysterious .exe files: c:\Tools\strings64.exe -accepteula file.exe
+View ADS: Get-Item -Path file.exe -Stream *
+Run the hidden .exe hiding in ADS:wmic process call create $(Resolve-Path file.exe:streamname)
+hashes && flags
+file hash for db.exe:96690FFC54AB6101932856E6A78E3A1
+file hash of mysterious .exe:5F037501FB542AD2D9B06EB12AED09F0
+[Flag1] using strings:THM{f6187e6cbeb1214139ef313e108cb6f9}
+[Flag2] display when run db connector file:THM{088731ddc7b9fdeccaed982b07c297c}
+
+
+
+
+
+

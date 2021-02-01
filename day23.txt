@@ -1,0 +1,14 @@
+[RDP]
+[Blue Teaming]
+User name: administrator
+User password: sn0wF!akes!!!
+Command to interact with VSS is vssadmin
+List Volumes: List volumes elideble for shadow copies
+List Shadows: List existing volume shadow copies
+A-Za-z0-9+/=
+suspicious task: opidsfsdf
+location os suspicious task:C:\Users\Administrator\Desktop\opidsfsdf.exe
+another scheduled task
+volume id=>7a9ee15-0000-0000-0000-01000000000
+name of the hidden-folder: confidential
+password:m33pa55w0rdiZseecure!

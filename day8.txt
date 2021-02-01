@@ -1,0 +1,9 @@
+[nmap]
+useful commands:
+nmap -A x.x.x.x
+nmap -O x.x.x.x
+nmap -p 22 x.x.x.x
+nmap -p- x.x.x.x
+nmap -sV x.x.x.x
+open ports: 80,2222,3389
+NSE:nmap -p 80 --script http-title 10.10.2.15

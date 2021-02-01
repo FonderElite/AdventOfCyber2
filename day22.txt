@@ -1,0 +1,9 @@
+[Blueteaming]
+User name: Administrator
+User password: sn0wF!akes!!!
+Magic: use to decode the folder name
+Auto Bake: run the recipe against the encoded value
+if not simply press [BAKE!]
+To View password entries click:ellipsis[...]
+https://gist.github.com/heavenraiza
+final flag:THM{657012dcf3d1318dca0ed864f0e70535}

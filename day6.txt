@@ -1,0 +1,6 @@
+XSS
+owaspZap
+automated scan 
+=>2 alerts of XSS
+What vulnerability type was used to exploit the application?
+stored cross site scripting

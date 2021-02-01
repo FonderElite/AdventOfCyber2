@@ -1,0 +1,11 @@
+reverse eng
+Username: elfmceager
+Password: adventofcyber
+gdb ./challenge1
+break main
+run
+set disassembly-flavor intel
+diass main
+local_ch: 1
+eax: 6
+local_4h before eax is set to 0: 6

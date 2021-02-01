@@ -1,0 +1,21 @@
+Networking
+wireshark
+[important commands]
+ip.src == 192.168.1.1
+ip.dst == 192.168.1.1
+tcp.port == 22 / udp.port == 67
+tcp.port == 21
+filter used on pcap1.pcap:
+ICMP
+[10.11.3.2]
+http.request.method == GET 
+[title]
+
+filter used on pcap2.pcap:
+tcp.port == 21
+
+pcap3
+exported as HTTP
+=>Found christmas.zip then unzip
+cat .txt file
+x1 Rubber ducky 

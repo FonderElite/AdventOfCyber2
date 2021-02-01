@@ -1,0 +1,20 @@
+Powershell
+important commands:
+Specify path:-Path
+-File/-Directory: get list of file
+-Filter: Species a filter to qualify
+-Recurse: Gets the items in the specified locations
+-Hidden: To get only hidden items
+-ErrorAction SilentlyContinue: specifies what action to take if error
+View all hidden files:Get-ChildItem -File -Hidden -ErrorAction SilentlyContinue
+Get-Content: read contents of a file
+ex.Get-Content -Path file.txt
+Set-Location: change location to the Admin's desktop
+ex.Set-Location -Path c:\users\administrator\desktop 
+Select-String:search a particular file
+ex.Select-String -Path 'c:\users\administrator\desktop' -Pattern '*.pdf'
+Get-Content file.txt | Measure-Object
+[Blue Teaming]
+ssh -l mceager 10.10.109.12
+pass: r0ckStar!
+

@@ -1,0 +1,8 @@
+SMB
+enum4linux -U <targetip>
+smbclient //REPLACE_INSTANCE_IP_ADDRESS/**sharename**
+[smbclient //10.10.196.0/tbfc-santa]
+get  note_from_mcskidy.txt 
+got a .txt file
+msg: Hi Santa, I decided to put all of your favourite jingles onto this share - allowing you access it from anywhere you like! Regards ~ ElfMcSkidy
+dir:jingletunes

