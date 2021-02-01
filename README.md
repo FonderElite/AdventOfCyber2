@@ -1,5 +1,5 @@
 # Advent Of Cyber2 WriteUp
-<img style="border:1px solid white;"src="https://www.aldeid.com/w/images/a/a0/Ctf-tryhackme-advent-of-cyber-Data-Elf-iltration-TryHackMe.jpg" alt="TryHackMe2">
+<img src="https://www.aldeid.com/w/images/a/a0/Ctf-tryhackme-advent-of-cyber-Data-Elf-iltration-TryHackMe.jpg" alt="TryHackMe2">
 
 
 # Author
