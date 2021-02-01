@@ -1,6 +1,5 @@
 # Advent Of Cyber2 WriteUp
 <img src="https://www.aldeid.com/w/images/a/a0/Ctf-tryhackme-advent-of-cyber-Data-Elf-iltration-TryHackMe.jpg" alt="TryHackMe2">
-
 # Author
 This Write Up Is Gladly Made By FonderElite
 <img src="JusticeServed.png">
